@@ -1,0 +1,5 @@
+Recommended Software
+
+- Chrome
+- Atom text editor
+- https://www.appbrewery.co/p/web-development-course-resources/

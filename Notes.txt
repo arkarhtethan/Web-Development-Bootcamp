@@ -1,0 +1,23 @@
+Generic Notes
+- HTML files - Structure of your website (builders)
+- CSS files - stylesheet of your website (painters)
+- javascript files - functionality of your website (electricians / plumbers)
+
+HTML Notes
+- HTML file is the structure, you can make a website just with HTML code (though it might be plain)
+- Hypertext markup language.
+- specify layout and structure using html tags.
+- codepen.io (no sign ups required)
+- h1 to h6. How you know limit is at 6? Documentation. Read the html documentation.
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements
+- https://www.w3schools.com/hTml/html_headings.asp
+- https://devdocs.io/
+- https://docs.emmet.io/cheat-sheet/
+- UTF-8 rocks
+- https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+- Identation helps with readability
+
+Syntax of html tags
+<start tag>content<closing tag> e.g. <h1>Hello world!</br>
+<self closing tag> e.g. <br>, <hr> (horizontal rule)
+<element attribute=""> e.g. <hr size="3" noshade>
