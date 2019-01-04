@@ -1,3 +1,0 @@
-HTML files - Structure of your website (builders)
-CSS files - stylesheet of your website (painters)
-javascript files - functionality of your website (electricians / plumbers)
