@@ -1,0 +1,38 @@
+/* Tag selectors  */
+h1 {
+  color: red;
+  font-size: 100px;
+}
+
+/* the ":hover" is a pseudo class */
+h1:hover {
+  color: purple;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* Class selectors */
+.bacon {
+  background-color: red;
+}
+
+.bacon:hover {
+  background-color: greenyellow;
+}
+
+.circular {
+  background-color: orange;
+  border-radius: 100%;
+}
+
+.second {
+  color: green;
+}
+
+/* ID selector */
+#first {
+  color: blue;
+  font-size: 30px;
+}

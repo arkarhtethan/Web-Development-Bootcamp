@@ -1,0 +1,27 @@
+/* element { property: value; property: value;} */
+/* inline style > internal style > external style */
+
+body {
+  background-color: #f9ed69;
+}
+
+/* everything on your webpage is just a whole bunch of boxes and properties of these boxes can be affected by changing the css code. */
+/* Should use % instead of hardcoding values for different screen sizes */
+hr {
+  border-color: #6a2c70;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #f08a5d;
+}
+
+h3 {
+  color: #b83b5e;
+}
+
+/* You can also do class and id selectors. Id and class selectors are more specific and will have priority over traditional tag selectors. See the WD3.5 Bacon Fansite Start folder */
+/* Can only have 1 id but multiple classes */

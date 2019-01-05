@@ -16,8 +16,17 @@ HTML Notes
 - UTF-8 rocks
 - https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
 - Identation helps with readability
+- https://colorhunt.co/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 
 Syntax of html tags
 <start tag>content<closing tag> e.g. <h1>Hello world!</br>
 <self closing tag> e.g. <br>, <hr> (horizontal rule)
 <element attribute=""> e.g. <hr size="3" noshade>
+
+Syntax of CSS
+selector (i.e. tag) = who to change?
+property = what to change
+value = how to change?
+
+selector {property: value;}
