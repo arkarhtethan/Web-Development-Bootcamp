@@ -16,17 +16,37 @@ HTML Notes
 - UTF-8 rocks
 - https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
 - Identation helps with readability
-- https://colorhunt.co/
-- https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+- one tag can have 1 id but multiple classes
+- designing websites are like completing a puzzle with each piece being a different sized block.
 
 Syntax of html tags
 <start tag>content<closing tag> e.g. <h1>Hello world!</br>
 <self closing tag> e.g. <br>, <hr> (horizontal rule)
 <element attribute=""> e.g. <hr size="3" noshade>
 
+CSS Notes
+- https://colorhunt.co/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+- favicon.cc
+- Margin vs Border vs Padding = http://markusvogl.com/web1/interactive_box_model/css_box_demo.html
+- https://www.w3schools.com/cssref/css_websafe_fonts.asp
+- https://www.cssfontstack.com/
+- https://loremipsum.io/
+- https://www.flaticon.com/
+- https://giphy.com/stickers (stickers come with transparent background)
+- spans are like divs, they don't do very much unless used in conjection with CSS
+- absolute position means relative to the parent's position (usually the page or the div the element is in).
+- Note that your parent needs to have the position of relative otherwise it'll take the next parent which has it (usually the page)
+- relative position means relative position from it's original position
+- fixed position means fixed to the screen like a frozen header row in a table.
+- when using inline display, you cannot specify the width and height
+- if you change the width or height of blocks and you try to do text-align, it will fail. You should resort to using margin: auto.
+- text-align: center should be used inside parent css.
+
+
+
 Syntax of CSS
 selector (i.e. tag) = who to change?
 property = what to change
 value = how to change?
-
 selector {property: value;}
