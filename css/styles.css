@@ -1,0 +1,137 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  /* 100% = 16px = 1em */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin: 10px auto;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-weight: normal;
+  margin: auto;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 8px;
+  color: #EAF6F6;
+  width: 5%;
+}
+
+.top-cloud {
+  display: block;
+  margin: auto;
+  margin-right: 0;
+}
+
+.bottom-cloud {
+  display: block;
+  margin: auto;
+  margin-left: 0;
+}
+
+.mountain {
+  display: block;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #dcedc2;
+  padding-top: 10px;
+}
+
+.top-elements {
+  width: 65%;
+  height: 65%;
+  display: inline-block;
+  position: relative;
+}
+
+.picture {
+  border-radius: 25%;
+  width: 25%;
+  height: 25%;
+}
+
+.dog {
+  float: left;
+  margin: auto 30px auto auto;
+}
+
+.doggy-names {
+  margin-bottom: 20px;
+}
+
+/* Float is extremely overused and has a lot of edge cases. Only use it for wrapping text instead of positioning. */
+.bread {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin: auto auto 0 30px;
+}
+
+.profile {
+  float: none;
+  width: 10%;
+  height: 10%;
+  margin: 30px auto 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px
+}
+
+.footer-msg {
+  margin-top: 30px;
+  color: #EAF6F6;
+}
+
+.btn {
+  display: inline-block;
+  background: #11999E;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px auto;
+}
+
+.footer-link {
+  color: white;
+  margin: auto 20px;
+}
+
+.skill-row {
+  /* line height is about spacing between list-style: ; */
+  line-height: 2;
+  margin: 50px auto 20px;
+  text-align: left;
+  width: 40%;
+}
