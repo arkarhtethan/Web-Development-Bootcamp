@@ -2,6 +2,10 @@ Generic Notes
 - HTML files - Structure of your website (builders)
 - CSS files - stylesheet of your website (painters)
 - javascript files - functionality of your website (electricians / plumbers)
+- Wireframe (low fidelity, just sketches of what your website might look like http://sneakpeekit.com/, https://balsamiq.cloud/ - paid)
+- mockup (high fidelity, going into the future and taking a screenshot of your website)
+- Look at some websites for inspiration then go to http://www.ui-patterns.com to look for
+
 
 HTML Notes
 - HTML file is the structure, you can make a website just with HTML code (though it might be plain)
@@ -25,14 +29,14 @@ Syntax of html tags
 <element attribute=""> e.g. <hr size="3" noshade>
 
 CSS Notes
-- https://colorhunt.co/
-- https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+- https://colorhunt.co/ (colour schemes)
+- https://developer.mozilla.org/en-US/docs/Web/CSS/color_value (common colour values)
 - favicon.cc
-- Margin vs Border vs Padding = http://markusvogl.com/web1/interactive_box_model/css_box_demo.html
-- https://www.w3schools.com/cssref/css_websafe_fonts.asp
-- https://www.cssfontstack.com/
-- https://loremipsum.io/
-- https://www.flaticon.com/
+- http://markusvogl.com/web1/interactive_box_model/css_box_demo.html (Margin vs Border vs Padding)
+- https://www.w3schools.com/cssref/css_websafe_fonts.asp (what are safe fonts to use)
+- https://www.cssfontstack.com/ (getting font usage)
+- https://loremipsum.io/ (default text)
+- https://www.flaticon.com/ (favicon)
 - https://giphy.com/stickers (stickers come with transparent background)
 - spans are like divs, they don't do very much unless used in conjection with CSS
 - absolute position means relative to the parent's position (usually the page or the div the element is in).
@@ -42,11 +46,16 @@ CSS Notes
 - when using inline display, you cannot specify the width and height
 - if you change the width or height of blocks and you try to do text-align, it will fail. You should resort to using margin: auto.
 - text-align: center should be used inside parent css.
-
-
+- https://getbootstrap.com/docs/4.2/getting-started/introduction/ (bootstrap)
+- https://fontawesome.com/ (icons)
+- https://bootsnipp.com (snippets of code)
+- things that come first in HTML will be at the back (in terms of z-index), needs the position property.
 
 Syntax of CSS
 selector (i.e. tag) = who to change?
 property = what to change
 value = how to change?
 selector {property: value;}
+
+Media queries
+@media <type> <feature>
