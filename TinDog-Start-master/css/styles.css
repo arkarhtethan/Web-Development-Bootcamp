@@ -1,38 +1,69 @@
-#title {
-  background-color: #ff4c68;
-  color: white;
-  position: relative;
-  z-index: 0;
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
-h1 {
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+/* Headings */
+
+.big-heading {
   font-size: 3.5rem;
   font-weight: bold;
   line-height: 1.5;
 }
 
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Container */
+
 .container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/* Title Section */
+/* Parent then child */
+#title .container-fluid {
   padding: 3% 15% 7%;
+  position: relative;
+  z-index: 0;
+  text-align: left;
 }
 
+/* There's also another syntax without space, e.g. #title.container-fluid */
+/* This means look for an ID with title AND the class container-fluid */
+/* The previous one says id = title as parent, .container-fluid as child */
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
 
 /* Navigation Bar */
-
 .navbar {
   padding: 0 0 4.5rem;
 }
-
 
 .navbar-brand {
   font-family: Ubuntu;
   font-size: 2.5rem;
   font-weight: bold;
 }
-
 
 .nav-item {
   padding: 0 18px;
@@ -43,13 +74,11 @@ body {
 }
 
 /* Download Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-
 .title-image {
   transform: rotate(25deg);
   width: 60%;
@@ -61,91 +90,73 @@ body {
 }
 
 /* Features */
-
 #features {
-  padding: 7% 15%;
-  background-color: white;
+
   position: relative;
   /* Actually you don't have to specify the z index because the features is below the title in the html code  */
   z-index: 1;
 }
 
-.features {
-  text-align: center;
+.feature {
   padding: 5%;
 }
 
-h3 {
-  font-family: 'Montserrat';
+.feature-title {
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
-.features-icon {
+.feature-icon {
   color: #ef8172;
   margin-bottom: 1rem;
 }
 
-.features-icon:hover {
+.feature-icon:hover {
   color: #ff4c68;
 }
 
-p {
-  color: #8f8f8f;
-}
-
 /* Testimonials */
-
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
-  color: white;
 }
 
-h2 {
-  font-family: "Montserrat";
+.testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
-  font-weight: bold;
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
 /* Press */
-
-#press{
+#press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   margin: 20px 20px 50px;
   width: 15%;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* Pricing */
-
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
-.pricing-column{
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
   padding: 3% 2%;
 }
 
 /* the type can be a bit confusing. max-width here means if it's less than 1028 px */
 @media (max-width: 991px) {
-
   #title {
     text-align: center;
   }
@@ -156,27 +167,11 @@ h2 {
   }
 }
 
-/* call to action */
-
-#cta {
-  background-color: #ff4c68;
-  color: white;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-.cta-h3{
-  font-family: "Montserrat-Black", sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
 /* Footer */
 
 #footer {
   background-color: white;
   padding: 5% 15%;
-  text-align: center;
 }
 
 .fa-footer-icon {

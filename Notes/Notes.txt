@@ -50,6 +50,7 @@ CSS Notes
 - https://fontawesome.com/ (icons)
 - https://bootsnipp.com (snippets of code)
 - things that come first in HTML will be at the back (in terms of z-index), needs the position property.
+- inline style sheet > external style sheet (id > class > html tag) for css priority
 
 Syntax of CSS
 selector (i.e. tag) = who to change?
