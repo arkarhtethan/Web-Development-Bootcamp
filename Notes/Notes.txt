@@ -50,7 +50,7 @@ CSS Notes
 - https://fontawesome.com/ (icons)
 - https://bootsnipp.com (snippets of code)
 - things that come first in HTML will be at the back (in terms of z-index), needs the position property.
-- inline style sheet > external style sheet (id > class > html tag) for css priority
+- inline style sheet > external style sheet (id > class > html tag) for css priority but avoid internal style sheets
 
 Syntax of CSS
 selector (i.e. tag) = who to change?
@@ -60,3 +60,17 @@ selector {property: value;}
 
 Media queries
 @media <type> <feature>
+
+Javascript Notes
+- Inside the javscript console, under sources, find the snippets tab. In this tab you can easily write javascript code and run it as opposed to trying to write it in the console.
+- document.querySelector works for html tags, classes (.className) and ids (#idName)
+- can also combine multiple selectors in querySelector with space e.g. if you wanted a "a" tag inside the "li" tag, you can do document.querySelector("li a")
+- similarly, if you wanted a li with a particular class, you can do document.querySelector("li.className")
+- querySelector only returns the first element that matches the selector.
+- querySelectorAll if you want multiple elements
+- getElement(s)By[Id,Class,Tag etc.]
+- https://www.w3schools.com/jsref/dom_obj_style.asp
+- values in javascript have to be specified in string e.g. "10rem", "red"
+- innerHtml gives you all inside the tag including other HTML tags.
+- textContent only gives you the text.
+- attributes, getAttribute() and setAttribute()
