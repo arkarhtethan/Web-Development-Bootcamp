@@ -74,3 +74,7 @@ Javascript Notes
 - innerHtml gives you all inside the tag including other HTML tags.
 - textContent only gives you the text.
 - attributes, getAttribute() and setAttribute()
+- https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+- anonymous function has no function name.
+- sometimes if you passing function as callback, you just need to pass the name. If you add the parenthesis, it will be called when your code is run.
+- Javascript has a debugger function. Put it before the function being called "debugger;"
