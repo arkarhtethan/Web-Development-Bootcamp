@@ -78,3 +78,13 @@ Javascript Notes
 - anonymous function has no function name.
 - sometimes if you passing function as callback, you just need to pass the name. If you add the parenthesis, it will be called when your code is run.
 - Javascript has a debugger function. Put it before the function being called "debugger;"
+- use classlist to add new class.
+- figure out the differences between innerHTML, innerText, textContent (http://perfectionkills.com/the-poor-misunderstood-innerText/)
+
+JQuery Notes
+- $ in jQuery = document.querySelector
+- if you're going to use jquery inside your js file, you need to put your js scriptsrc b4 the js file otherwise it won't be able to understand stuff like $.
+- if jquery src is in title with index.js, it might load the index.js first and not prompt an error so the way you fix it is by using $(document).ready(function(){ enter code here })
+- you can avoid the problem above by simply putting the scriptsrc before the closing body tag.
+- minifier.org
+- shouldn't be changing css or adding new html tag inside javascript. Maybe you can use a custom class that you can toggle on and off if you want to change the css.
