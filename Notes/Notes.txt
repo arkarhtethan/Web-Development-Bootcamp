@@ -80,6 +80,7 @@ Javascript Notes
 - Javascript has a debugger function. Put it before the function being called "debugger;"
 - use classlist to add new class.
 - figure out the differences between innerHTML, innerText, textContent (http://perfectionkills.com/the-poor-misunderstood-innerText/)
+- If using es6 stuff e.g. const and linter keeps prompting you, just add this comment above "// jshint esversion:6"
 
 JQuery Notes
 - $ in jQuery = document.querySelector
@@ -88,3 +89,11 @@ JQuery Notes
 - you can avoid the problem above by simply putting the scriptsrc before the closing body tag.
 - minifier.org
 - shouldn't be changing css or adding new html tag inside javascript. Maybe you can use a custom class that you can toggle on and off if you want to change the css.
+
+Node Notes
+- https://nodejs.org/dist/latest-v11.x/docs/api/
+- Node comes in with some default packages e.g. fs. Can see the above link to find out more.
+- Can just type node in the terminal to open up javascript console.
+- Can do "atom ." inside terminal and open atom with the corresponding project folder.
+- Nodemon package https://github.com/remy/nodemon, install globally. use nodemon <server name> instead of node then you don't have to manually restart your server everytime.
+- use body-parser package to parse the values in the post request.
