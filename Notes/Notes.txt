@@ -97,3 +97,11 @@ Node Notes
 - Can do "atom ." inside terminal and open atom with the corresponding project folder.
 - Nodemon package https://github.com/remy/nodemon, install globally. use nodemon <server name> instead of node then you don't have to manually restart your server everytime.
 - use body-parser package to parse the values in the post request.
+- see example.js in Bitcoin-Tracker for more info on how to set up bodyParser with express.
+
+Application Programming Interface (API) Notes
+- https://httpstatuses.com/
+- use the request module to make get request to another server.
+- JSON.stringify(js object)
+- JSON.parse(string)
+- res.send is the last thing you'd send to the browser, if you want to send multiple things, you have to use res.write. 
