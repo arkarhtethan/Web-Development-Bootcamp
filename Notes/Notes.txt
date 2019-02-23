@@ -104,4 +104,11 @@ Application Programming Interface (API) Notes
 - use the request module to make get request to another server.
 - JSON.stringify(js object)
 - JSON.parse(string)
-- res.send is the last thing you'd send to the browser, if you want to send multiple things, you have to use res.write. 
+- res.send is the last thing you'd send to the browser, if you want to send multiple things, you have to use res.write.
+
+Heroku / mailchimp
+- You need 2 things for mail chimp, one is the list id and 2 is your api key.
+- merge fields are custom fields like FNAME LNAME. See more in Newsletter-Signup/app.js.
+- Define a Procfile (no extensions) to tell heroku what command to run when it's loaded.
+- Log into Heroku using heroku login before you do heroku create then push the subtree.
+- https://stackoverflow.com/questions/7539382/how-can-i-deploy-push-only-a-subdirectory-of-my-git-repo-to-heroku to push a subdirectory to heroku.
