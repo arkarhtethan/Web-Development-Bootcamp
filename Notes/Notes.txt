@@ -81,6 +81,7 @@ Javascript Notes
 - use classlist to add new class.
 - figure out the differences between innerHTML, innerText, textContent (http://perfectionkills.com/the-poor-misunderstood-innerText/)
 - If using es6 stuff e.g. const and linter keeps prompting you, just add this comment above "// jshint esversion:6"
+- You can change stuff inside arrays and objects even though they are declared const. You just can't reassign it to something else.
 
 JQuery Notes
 - $ in jQuery = document.querySelector
@@ -97,7 +98,7 @@ Node Notes
 - Can do "atom ." inside terminal and open atom with the corresponding project folder.
 - Nodemon package https://github.com/remy/nodemon, install globally. use nodemon <server name> instead of node then you don't have to manually restart your server everytime.
 - use body-parser package to parse the values in the post request.
-- see example.js in Bitcoin-Tracker for more info on how to set up bodyParser with express.
+- see app.js in Web-Development-Bootcamp for more info on how to set up bodyParser with express.
 
 Application Programming Interface (API) Notes
 - https://httpstatuses.com/
@@ -112,3 +113,13 @@ Heroku / mailchimp
 - Define a Procfile (no extensions) to tell heroku what command to run when it's loaded.
 - Log into Heroku using heroku login before you do heroku create then push the subtree.
 - https://stackoverflow.com/questions/7539382/how-can-i-deploy-push-only-a-subdirectory-of-my-git-repo-to-heroku to push a subdirectory to heroku.
+
+Templating
+- ejs, google use ejs with express
+- need a views folder
+- see more notes inside todolist folder.
+- use layouts for standardize design across multiple pages like headers and footers.
+
+Modules
+- https://nodejs.org/api/modules.html
+-

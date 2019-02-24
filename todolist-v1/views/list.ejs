@@ -1,0 +1,31 @@
+<%- include("header") -%>
+  <!-- These scriptlet tag <%%> lets you do basic control flow in the templated file but better to do them in the server. -->
+  <!-- onloadedmetadata=""<% if(listTitle=== "Saturday" || listTitle === "Snuday") { %>
+      <h1 style="color: purple"><%= listTitle %> To-do List!</h1>
+    <% } else {%>
+      <h1 style="color: blue"><%= listTitle %> To-do List!</h1>
+    <% }%> -->
+
+  <div class="box" id="heading">
+    <h1><%=listTitle%></h1>
+  </div>
+
+  <div class="box">
+    <%for(var i = 0; i < newTasks.length; i ++) {%>
+      <div class="item">
+        <input type="checkbox">
+        <p>
+          <%=newTasks[i]%>
+        </p>
+      </div>
+    <%}%>
+
+
+    <form class="item" action="/" method="post">
+      <input type="text" name="newTask" placeholder="Enter task" autocomplete="off">
+      <!-- You're dynamically trying to figure out which list to add the task to. -->
+      <button type="submit" name="taskType" value="<%=listTitle%>">+</button>
+    </form>
+  </div>
+
+<%- include("footer") -%>
