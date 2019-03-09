@@ -122,4 +122,11 @@ Templating
 
 Modules
 - https://nodejs.org/api/modules.html
--
+
+Databases
+- SQL vs NOSQL (Not only SQL) => relational vs non relational
+- a lot of relationships = use SQL
+- if it's like one to many e.g. 1 user makes a lot of posts, easier to map out using NOSQL
+- nosql is more scalable than sql
+- table (schema) structure vs document structure
+- https://sqliteonline.com/
