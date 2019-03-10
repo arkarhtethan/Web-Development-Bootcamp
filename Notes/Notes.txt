@@ -130,3 +130,16 @@ Databases
 - nosql is more scalable than sql
 - table (schema) structure vs document structure
 - https://sqliteonline.com/
+
+MongoDB
+- https://docs.mongodb.com/guides/
+- Use the quick start guide to install mongoDB.
+- run mongod to start server
+- run mongo to enter mongoDB shell
+- use the help command in the mongoDB shell to show a list of all commands
+- use <name of DB> to create a new DB, note that it won't appear when you run the "show dbs" command until it has some data in it.
+- "db" to show current db
+- collections are like tables in the SQL databases
+- "show collections" command to show all collections
+- "db.products.find({price: {$gt: 0.5}})" = find all documents where price is greater than 0.5
+- {} is an empty document.
