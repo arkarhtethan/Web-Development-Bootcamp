@@ -114,6 +114,7 @@ Heroku / mailchimp
 - Log into Heroku using heroku login before you do heroku create then push the subtree.
 - https://stackoverflow.com/questions/7539382/how-can-i-deploy-push-only-a-subdirectory-of-my-git-repo-to-heroku to push a subdirectory to heroku.
 - https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment
+- If you're unable to deploy to heroku, you have to update the heroku remote with the "heroku git:remote -a <name of server>" command. https://devcenter.heroku.com/articles/git#deploying-code
 
 Templating
 - ejs, google use ejs with express
