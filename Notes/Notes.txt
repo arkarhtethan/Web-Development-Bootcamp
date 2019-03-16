@@ -113,6 +113,7 @@ Heroku / mailchimp
 - Define a Procfile (no extensions) to tell heroku what command to run when it's loaded.
 - Log into Heroku using heroku login before you do heroku create then push the subtree.
 - https://stackoverflow.com/questions/7539382/how-can-i-deploy-push-only-a-subdirectory-of-my-git-repo-to-heroku to push a subdirectory to heroku.
+- https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment
 
 Templating
 - ejs, google use ejs with express
