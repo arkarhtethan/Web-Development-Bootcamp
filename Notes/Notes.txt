@@ -99,6 +99,7 @@ Node Notes
 - Nodemon package https://github.com/remy/nodemon, install globally. use nodemon <server name> instead of node then you don't have to manually restart your server everytime.
 - use body-parser package to parse the values in the post request.
 - see app.js in Web-Development-Bootcamp for more info on how to set up bodyParser with express.
+- if chaining multiple routes with app.route, the semi colon is used to indicate the end.
 
 Application Programming Interface (API) Notes
 - https://httpstatuses.com/
@@ -148,3 +149,8 @@ MongoDB
 - When creating a new cluster in Atlus, don't forget to create a new admin user and whitelist all addresses.
 - Can connect via the mongo shell (similar to ssh and running mongo)
 - Need to also replace the connection string in your application
+
+REST APIs
+- REST is an architectural style, e.g. SOAP vs REST
+- GET, POST, PUT, PATCH (NEW) AND DELETE - http verbs
+- PUT vs PATCH = update entire entry vs update a particular field in that entry.
