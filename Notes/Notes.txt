@@ -5,7 +5,7 @@ Generic Notes
 - Wireframe (low fidelity, just sketches of what your website might look like http://sneakpeekit.com/, https://balsamiq.cloud/ - paid)
 - mockup (high fidelity, going into the future and taking a screenshot of your website)
 - Look at some websites for inspiration then go to http://www.ui-patterns.com to look for
-
+- https://lipis.github.io/bootstrap-social/ for social login buttons
 
 HTML Notes
 - HTML file is the structure, you can make a website just with HTML code (though it might be plain)
